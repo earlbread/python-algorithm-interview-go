@@ -5,9 +5,9 @@ func twoSum(nums []int, target int) []int {
 	for i, num := range nums {
 		if index, ok := indices[num]; ok {
 			return []int{index, i}
-		} else {
-			indices[target-num] = i
 		}
+
+		indices[target-num] = i
 	}
 
 	return []int{-1, -1}

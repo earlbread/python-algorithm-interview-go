@@ -13,10 +13,10 @@ func trap(height []int) int {
 				break
 			}
 
-			left_height := height[stack[len(stack)-1]]
+			leftHeight := height[stack[len(stack)-1]]
 			depth := h - height[top]
-			if left_height < h {
-				depth = left_height - height[top]
+			if leftHeight < h {
+				depth = leftHeight - height[top]
 			}
 
 			distance := i - stack[len(stack)-1] - 1
