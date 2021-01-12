@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://earlbread.github.io/python-algorithm-interview-go/sitemap.xml
